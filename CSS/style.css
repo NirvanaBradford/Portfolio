@@ -1,0 +1,104 @@
+:root {
+  --primary: #ff8fb1; /* A soft pink to match your aesthetic */
+  --dark: #2d3436;
+  --light: #f9f9f9;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  margin: 0;
+  background-color: var(--light);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+section {
+  margin-top: 50px;
+}
+
+.hero {
+  font-family: serif;
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #fff5f7 0%, #ffe4e9 100%);
+}
+
+.gpa-highlight {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.project-btn {
+  border-radius: 5px solid;
+  padding: 5px;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 5%;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid var(--primary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.job {
+  padding: 20px 5%;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #fdfdfd;
+  border: 3px solid bisque;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-text {
+  font-weight: bold;
+  color: #2d3436;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  list-style: none;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
